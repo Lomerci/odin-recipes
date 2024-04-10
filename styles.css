@@ -1,0 +1,38 @@
+/* index.html */
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body #title {
+    color: darkgreen;
+    background-color: lightgoldenrodyellow;
+}
+
+h2 {
+    color: white;
+}
+
+.introduction {
+    font-size: 16px;
+}
+
+/* suya.html */
+
+body {
+    background-color: #478419;
+}
+
+body #suya {
+    color: darkgreen;
+    background-color: lightgoldenrodyellow;
+}
+
+body .heading {
+    color: white;
+}
+
+img {
+    height: auto;
+    width: 400;
+}
