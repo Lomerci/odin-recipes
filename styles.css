@@ -4,7 +4,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body #title {
+#title,
+#suya,
+#beans,
+#moimoi {
     color: darkgreen;
     background-color: lightgoldenrodyellow;
 }
@@ -21,11 +24,6 @@ h2 {
 
 body {
     background-color: #478419;
-}
-
-body #suya {
-    color: darkgreen;
-    background-color: lightgoldenrodyellow;
 }
 
 body .heading {
