@@ -2,6 +2,9 @@
 
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #title,
@@ -10,6 +13,8 @@
 #moimoi {
     color: darkgreen;
     background-color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 h2 {
@@ -33,4 +38,59 @@ body .heading {
 img {
     height: auto;
     width: 400;
+}
+
+.recipe-card {
+    width: 800px;
+    text-align: center;
+    background-color: #74B72E;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 0 0 5px black;
+}
+
+.recipe-card.feature {
+    border: 3px solid black;
+}
+
+.recipe-card a {
+    background-color: lightgoldenrodyellow;
+    color: #d06002;
+    padding: 10px;
+    margin: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 2px -2px #d06002;   
+}
+
+a {
+    transition-duration: 1s;
+}
+
+a:hover {
+    background-color: #d06002;
+    color: lightgoldenrodyellow;
+    box-shadow: 0 4px 2px -2px lightgoldenrodyellow;
+}
+
+ul,
+li,
+h2,
+h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px;
+}
+
+p.recommed {
+    color: #fff;
+    margin: 20px;
 }
